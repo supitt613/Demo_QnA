@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		C1DADB992810F57300556D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DADB982810F57300556D00 /* AppDelegate.swift */; };
 		C1DADB9B2810F57300556D00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DADB9A2810F57300556D00 /* SceneDelegate.swift */; };
-		C1DADB9D2810F57300556D00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DADB9C2810F57300556D00 /* ViewController.swift */; };
 		C1DADBA02810F57300556D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DADB9E2810F57300556D00 /* Main.storyboard */; };
 		C1DADBA22810F57500556D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DADBA12810F57500556D00 /* Assets.xcassets */; };
 		C1DADBA52810F57500556D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DADBA32810F57500556D00 /* LaunchScreen.storyboard */; };
+		C1DADBB12811059700556D00 /* QnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DADBB02811059700556D00 /* QnaViewController.swift */; };
+		C1DADBB3281105A300556D00 /* Qna.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DADBB2281105A300556D00 /* Qna.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1DADB952810F57300556D00 /* Demo_QnA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_QnA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DADB982810F57300556D00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1DADB9A2810F57300556D00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1DADB9C2810F57300556D00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1DADB9F2810F57300556D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1DADBA12810F57500556D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1DADBA42810F57500556D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1DADBA62810F57500556D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DADBB02811059700556D00 /* QnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaViewController.swift; sourceTree = "<group>"; };
+		C1DADBB2281105A300556D00 /* Qna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qna.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				C1DADB982810F57300556D00 /* AppDelegate.swift */,
 				C1DADB9A2810F57300556D00 /* SceneDelegate.swift */,
-				C1DADB9C2810F57300556D00 /* ViewController.swift */,
 				C1DADB9E2810F57300556D00 /* Main.storyboard */,
+				C1DADBB02811059700556D00 /* QnaViewController.swift */,
+				C1DADBB2281105A300556D00 /* Qna.swift */,
 				C1DADBA12810F57500556D00 /* Assets.xcassets */,
 				C1DADBA32810F57500556D00 /* LaunchScreen.storyboard */,
 				C1DADBA62810F57500556D00 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DADB9D2810F57300556D00 /* ViewController.swift in Sources */,
+				C1DADBB12811059700556D00 /* QnaViewController.swift in Sources */,
+				C1DADBB3281105A300556D00 /* Qna.swift in Sources */,
 				C1DADB992810F57300556D00 /* AppDelegate.swift in Sources */,
 				C1DADB9B2810F57300556D00 /* SceneDelegate.swift in Sources */,
 			);
